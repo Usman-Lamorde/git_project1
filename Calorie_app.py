@@ -24,4 +24,3 @@ if Button:
                 st.write("Calorie value of", key, food)
                 sum_food = sum_food + food
     st.write("Total Calorie Value: ", sum_food)
-
