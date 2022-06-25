@@ -8,6 +8,8 @@ st.header("Fruits and Vegetables Calorie Counter")
 st.subheader("This Application will calculate the total amount of calories in your food order.")
 
 st.selectbox('Pick Gender', ['M', 'F'])
+st.slider('Input your weight', 0, 200)
+st.slider('Input your height (in cm)', 0, 240)
  
 Selected = st.multiselect('Select ', ['Fresh Apple', 'Fresh Cantaloupe', 'Fresh Grapes', 'Cinnamon Apples', 'Fresh Pear', 'Fresh Banana', 'Diced Strawberries', 'Dried Cranberries', 'Diced Peaches', 'Applesauce', 'Diced Pears', 'Mixed Fruit', 'Raisins', 'Mandarin Oranges', 'Wild Blueberries', 'Baby Carrots', 'Celery Sticks', 'Broccoli Florets', 'Cucumber Slices', 'Grape Tomatoes', 'Garden Salad', 'Jicama Sticks', 'Steamed Broccoli', 'Red Peppers Strips', 'Black Charro Beans', 'Green Beans', 'Green Peas', 'Mashed Potatoes', 'Sweet Golden Corn', 'Sweet Potato Fries', 'Baked Beans'])
              
